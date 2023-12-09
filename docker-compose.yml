@@ -1,0 +1,24 @@
+version: '3'
+services:
+  vernemq:
+    image: vernemq/vernemq:latest
+    ports:
+      - "1883:1883" # MQTT port
+      - "8888:8888" # Web dashboard (optional)
+    volumes:
+      - ./vernemq/config:/etc/vernemq
+      - ./vernemq/data:/var/lib/vernemq
+    environment:
+      - DOCKER_VERNEMQ_ALLOW_ANONYMOUS=on # Enable anonymous access (for testing only)
+      - DOCKER_VERNEMQ_ACCEPT_EULA=yes
+      - DOCKER_VERNEMQ_LISTENER.tcp.allowed_protocol_versions=3,4,5
+      - DOCKER_VERNEMQ_LISTENER.ws.allowed_protocol_versions=3,4,5
+      - DOCKER_VERNEMQ_LISTENER.wss.allowed_protocol_versions=3,4,5
+    networks:
+      - mqtt_network
+
+# Add any other services or dependencies here as needed
+
+networks:
+  mqtt_network:
+    driver: bridge

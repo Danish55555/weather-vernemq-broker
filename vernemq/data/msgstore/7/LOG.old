@@ -1,0 +1,40 @@
+2023/12/03-15:10:26.238757 7f71e0fe9700                        Version: develop (enterprise edition)
+2023/12/03-15:10:26.239600 7f71e0fe9700             Options.comparator: leveldb.InternalKeyComparator
+2023/12/03-15:10:26.240006 7f71e0fe9700      Options.create_if_missing: 1
+2023/12/03-15:10:26.240384 7f71e0fe9700        Options.error_if_exists: 0
+2023/12/03-15:10:26.240754 7f71e0fe9700        Options.paranoid_checks: 0
+2023/12/03-15:10:26.241119 7f71e0fe9700     Options.verify_compactions: 1
+2023/12/03-15:10:26.241482 7f71e0fe9700                    Options.env: 0x7f71f82fb0c0
+2023/12/03-15:10:26.241848 7f71e0fe9700               Options.info_log: 0x7f724803a4e0
+2023/12/03-15:10:26.242543 7f71e0fe9700      Options.write_buffer_size: 35774299
+2023/12/03-15:10:26.242905 7f71e0fe9700         Options.max_open_files: 1000
+2023/12/03-15:10:26.243263 7f71e0fe9700            Options.block_cache: 0x7f724803d920
+2023/12/03-15:10:26.243613 7f71e0fe9700             Options.block_size: 4096
+2023/12/03-15:10:26.243966 7f71e0fe9700       Options.block_size_steps: 16
+2023/12/03-15:10:26.244317 7f71e0fe9700 Options.block_restart_interval: 16
+2023/12/03-15:10:26.244678 7f71e0fe9700            Options.compression: 2
+2023/12/03-15:10:26.245029 7f71e0fe9700          Options.filter_policy: leveldb.BuiltinBloomFilter2
+2023/12/03-15:10:26.245377 7f71e0fe9700              Options.is_repair: false
+2023/12/03-15:10:26.245729 7f71e0fe9700         Options.is_internal_db: false
+2023/12/03-15:10:26.246090 7f71e0fe9700      Options.total_leveldb_mem: 2835308134
+2023/12/03-15:10:26.246444 7f71e0fe9700  Options.block_cache_threshold: 33554432
+2023/12/03-15:10:26.246797 7f71e0fe9700  Options.limited_developer_mem: false
+2023/12/03-15:10:26.247145 7f71e0fe9700              Options.mmap_size: 0
+2023/12/03-15:10:26.247510 7f71e0fe9700       Options.delete_threshold: 1000
+2023/12/03-15:10:26.247951 7f71e0fe9700       Options.fadvise_willneed: false
+2023/12/03-15:10:26.248387 7f71e0fe9700      Options.tiered_slow_level: 0
+2023/12/03-15:10:26.248834 7f71e0fe9700     Options.tiered_fast_prefix: ./data/msgstore/7
+2023/12/03-15:10:26.249403 7f71e0fe9700     Options.tiered_slow_prefix: ./data/msgstore/7
+2023/12/03-15:10:26.250050 7f71e0fe9700                         crc32c: hardware
+2023/12/03-15:10:26.250462 7f71e0fe9700   Options.cache_object_warming: true
+2023/12/03-15:10:26.250847 7f71e0fe9700        Options.ExpiryActivated: false
+2023/12/03-15:10:26.251220 7f71e0fe9700  ExpiryModuleEE.expiry_enabled: false
+2023/12/03-15:10:26.251584 7f71e0fe9700  ExpiryModuleEE.expiry_minutes: 0
+2023/12/03-15:10:26.251974 7f71e0fe9700     ExpiryModuleEE.whole_files: true
+2023/12/03-15:10:26.252344 7f71e0fe9700                File cache size: 69283453
+2023/12/03-15:10:26.252704 7f71e0fe9700               Block cache size: 71380605
+2023/12/03-15:10:26.275653 7f71e0fe9700 Recovering log #5
+2023/12/03-15:10:26.384808 7f71e0fe9700 Delete type=0 #5
+2023/12/03-15:10:26.386920 7f71e0fe9700 Delete type=3 #4
+2023/12/03-15:10:26.424998 7f71e0fe9700 File cache warmed with 0 files.
+2023/12/03-15:29:16.880893 7f71c5fb3700 Wrote 0 file cache objects for warming.
